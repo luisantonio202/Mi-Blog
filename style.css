@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: gray;
-    color: #fff;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -20,7 +20,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     padding: 0 15px;
 }
