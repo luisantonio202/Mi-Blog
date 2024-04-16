@@ -46,10 +46,9 @@ nav a:hover {
 
 section {
     padding: 20px;
-    margin: 20px;
-    background-color: #fff;
+    margin: 10px;
+    background-color: white;
     border-radius: 5px;
-    display: flex;
 }
 
 footer {
