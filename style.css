@@ -6,15 +6,15 @@ body {
 }
 
 header {
-    background-color: gray;
+    background-color: green;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-nav {
-    background-color: #444;
-    color: #fff;
+.barrita {
+    background-color: blue;
+    color: white;
     text-align: center;
     padding: 10px;
 }
@@ -44,12 +44,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-section {
-    
-}
 
 footer {
-    background-color: #333;
+    background-color: green;
     color:white;
     text-align: center;
     padding: 1px;
