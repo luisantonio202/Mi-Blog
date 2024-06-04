@@ -1,5 +1,5 @@
 // Función que se ejecutará cuando se haga clic en el botón
-function mostrarAlerta() {
+function mostrarMensaje() {
   alert("Hola que tengas un buen dia!");
 }
 
@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", function() {
   var boton = document.getElementById("miBoton");
 
   // Agregar un event listener al botón para detectar el clic y ejecutar la función mostrarAlerta
-  boton.addEventListener("click", mostrarAlerta);
+  boton.addEventListener("click", mostrarMensaje);
 });
