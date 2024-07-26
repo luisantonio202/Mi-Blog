@@ -16,7 +16,7 @@ header {
     background-color: blue;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 nav a {
@@ -35,23 +35,21 @@ nav a {
   }
 
  img {
-    float: left;
+    float: right;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
 nav a:hover {
-    color: black;
     text-decoration: underline;
 }
 
 
 footer {
-    text-align: center;
-    color: white;
-    border: solid black 1px;
     background-color: green;
-    padding: 3px;
+    color:white;
+    text-align: center;
+    padding: 1px;
     position: fixed;
     bottom: 0;
     width: 100%;
