@@ -1,4 +1,4 @@
-let botonSaludo = document.getElementById("miBoton");
+let botonSaludo = document.getElementById("botonMsj");
 
 // Función que se ejecutará cuando se haga clic en el botón
 function mostrarMensaje() {
