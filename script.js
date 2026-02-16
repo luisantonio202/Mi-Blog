@@ -1,12 +1,24 @@
 let botonSaludo = document.getElementById("botonMsj");
+let contenedor = document.getElementById("contenedor-uno");
+let mensajeCreado = false;
 
-// Función que se ejecutará cuando se haga clic en el botón
 function mostrarMensaje() {
-  alert("Hola que tengas un buen dia!");
+  if (!mensajeCreado) {
+    let saludo = document.createElement('p');
+    saludo.textContent = 'Hola excelente dia😊';
+    saludo.style.backgroundColor = 'orange';
+    saludo.style.borderStyle = 'solid';
+    saludo.style.fontFamily = 'Arial';
+    saludo.style.fontSize = '20px';
+    saludo.style.padding = '10px';
+    
+    contenedor.appendChild(saludo);
+    mensajeCreado = true;
+  }
 }
 
-  // Agregar un event listener al botón para detectar el clic y ejecutar la función mostrarAlerta
-  botonSaludo.addEventListener("click", mostrarMensaje);
+
+botonSaludo.addEventListener("click", mostrarMensaje);
 
 document.getElementById("boton-inicio").addEventListener("click", function() {
     window.location.href = "https://luisantonio202.github.io/Mi-Blog/";
